@@ -1,0 +1,285 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  font-size: 93.75%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  margin: 1.25rem 0 0 1.875rem;
+}
+
+header {
+  display: inline;
+  margin: 0;
+}
+
+img {
+  width: 20%;
+  float: right;
+  margin: 0.1rem 1.5rem 0;
+}
+
+.top-description {
+  color: hsl(229, 6%, 66%);
+  display: inline-block;
+  font-size: 0.875rem;
+  margin: 1.25rem auto 2.5rem;
+  width: 26rem;
+}
+
+.top-header {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3rem;
+}
+
+.middle-top-header {
+  width: 100%;
+}
+
+.information-container {
+  position: relative;
+}
+
+.box-description {
+  display: inline-block;
+  font-size: 0.75rem;
+  width: 13.125rem;
+  margin: 0;
+  margin-left: 1.875rem;
+  margin-top: 0.625rem;
+  color: hsl(229, 6%, 66%);
+}
+
+.box-one-container {
+  border-radius: 0.5rem;
+  display: inline-block;
+  height: 10rem;
+  position: absolute;
+  text-align: left;
+  border: 0 solid;
+  background-color: white;
+  padding-bottom: 0.625rem;
+  width: 18rem;
+  left: 11.25rem;
+  top: 6.875rem;
+}
+
+.box-two-container {
+  border-radius: 0.5rem;
+  display: inline-block;
+  height: 10rem;
+  position: absolute;
+  text-align: left;
+  border: 0 solid;
+  background-color: white;
+  padding-bottom: 0.625rem;
+  width: 18rem;
+  left: 30.9375rem;
+}
+
+.box-three-container {
+  border-radius: 0.5rem;
+  display: inline-block;
+  height: 10rem;
+  position: absolute;
+  text-align: left;
+  border: 0 solid;
+  background-color: white;
+  padding-bottom: 0.625rem;
+  width: 18rem;
+  left: 30.9375rem;
+  top: 12.5rem;
+}
+
+.box-four-container {
+  border-radius: 0.5rem;
+  display: inline-block;
+  height: 10rem;
+  position: absolute;
+  text-align: left;
+  border: 0 solid;
+  background-color: white;
+  padding-bottom: 0.625rem;
+  width: 18rem;
+  left: 50.5rem;
+  top: 6.875rem;
+}
+
+.cyan-top-box-background-color {
+  background-color: hsl(180, 62%, 55%);
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  height: 0.25rem;
+  width: 100%;
+}
+
+.blue-top-box-background-color {
+  background-color: hsl(212, 86%, 64%);
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  height: 0.25rem;
+  width: 100%;
+}
+
+.orange-top-box-background-color {
+  background-color: hsl(34, 97%, 64%);
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  height: 0.25rem;
+  width: 100%;
+}
+
+.red-top-box-background-color {
+  background-color: hsl(0, 78%, 62%);
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  height: 0.25rem;
+  width: 100%;
+}
+
+@media (max-width:640px) {
+  img {
+    width: 15%;
+    float: right;
+    margin: 1rem 1.5rem 0;
+  }
+
+  .top-description {
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    width: 18rem;
+  }
+
+  .box-description {
+    display: inline-block;
+    font-size: 0.75rem;
+    width: 13.125rem;
+    margin: 0;
+    margin-left: 1.875rem;
+    margin-top: 0.625rem;
+    color: hsl(229, 6%, 66%);
+  }
+
+  .box-one-container {
+    border-radius: 0.75rem;
+    display: inline-block;
+    position: absolute;
+    height: 10rem;
+    text-align: left;
+    border: 0 solid;
+    background-color: white;
+    padding-bottom: 0.625rem;
+    width: 18rem;
+    left: 2.5rem;
+    top: 0.625rem;
+  }
+
+  .box-two-container {
+    border-radius: 0.75rem;
+    display: inline-block;
+    position: absolute;
+    height: 10rem;
+    text-align: left;
+    border: 0 solid;
+    background-color: white;
+    padding-bottom: 0.625rem;
+    width: 18rem;
+    left: 2.5rem;
+    top: 13.125rem
+  }
+
+  .box-three-container {
+    border-radius: 0.75rem;
+    display: inline-block;
+    position: absolute;
+    height: 10rem;
+    text-align: left;
+    border: 0 solid;
+    background-color: white;
+    padding-bottom: 0.625rem;
+    width: 18rem;
+    left: 2.5rem;
+    top: 25.625rem;
+  }
+
+  .box-four-container {
+    border-radius: 0.75rem;
+    display: inline-block;
+    position: absolute;
+    height: 10rem;
+    text-align: left;
+    border: 0 solid;
+    background-color: white;
+    padding-bottom: 0.625rem;
+    width: 18rem;
+    left: 2.5rem;
+    top: 38.125rem;
+  }
+
+  .cyan-top-box-background-color {
+    background-color: hsl(180, 62%, 55%);
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    height: 0.25rem;
+    width: 100%;
+  }
+
+  .blue-top-box-background-color {
+    background-color: hsl(212, 86%, 64%);
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    height: 0.25rem;
+    width: 100%;
+  }
+
+  .orange-top-box-background-color {
+    background-color: hsl(34, 97%, 64%);
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    height: 0.25rem;
+    width: 100%;
+  }
+
+  .red-top-box-background-color {
+    background-color: hsl(0, 78%, 62%);
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    height: 0.25rem;
+    width: 100%;
+  }
+}
+
+/*
+Reliable, efficient delivery
+Powered by Technology
+
+Our Artificial Intelligence powered tools use millions of project data points
+to ensure that your project is successful
+
+Supervisor
+Monitors activity to identify project roadblocks
+
+Team Builder
+Scans our talent network to create the optimal team for your project
+
+Karma
+Regularly evaluates our talent to ensure quality
+
+Calculator
+Uses data from past projects to provide better delivery estimates
+*/
