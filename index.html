@@ -1,70 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.google.com/specimen/Poppins">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <title>Frontend Mentor | Four card feature section</title>
+        <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    .attribution {margin:0;}
-  </style>
-</head>
-<body>
-  <header>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </header>
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+            .attribution {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <p class="attribution">
+                Challenge by
+                <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+                    >Frontend Mentor</a
+                >. Coded by <a href="#">Your Name Here</a>.
+            </p>
+        </header>
 
-  <div class="top-container">
-    <h1 class="top-header">Reliable, efficient delivery</h1>
-    <h1 class="middle-top-header">Powered by Technology</h1>
-    <p class="top-description">
-      Our Artificial Intelligence powered tools use millions of project data points
-      to ensure that your project is successful
-    </p>
-  </div>
+        <div class="content">
+            <div class="content-text">
+                <h2 class="content-text_heading">Reliable. efficient delivery</h2>
+                <h2 class="content-text_heading bold">Powered by Technology</h2>
+                <p class="content-text_body">
+                    Our Artificial Intelligence powered tools use millions of project data points to
+                    ensure that your project is successful
+                </p>
+            </div>
+            <div class="content-cards">
+                <div class="content-cards_left">
+                    <div class="card">
+                        <div class="card-bar green"></div>
+                        <div class="card-content">
+                            <h2 class="card-content-heading">Supervisor</h2>
+                            <p class="card-content-body">
+                                Monitors activity to identify project roadblocks
+                            </p>
+                        </div>
+                        <div class="card-content-icon">
+                            <img src="images/icon-supervisor.svg" alt="calculator-icon" />
+                        </div>
+                    </div>
+                </div>
+                <div class="content-cards_center">
+                    <div class="card">
+                        <div class="card-bar red"></div>
+                        <div class="card-content">
+                            <h2 class="card-content-heading">Team Builder</h2>
+                            <p class="card-content-body">
+                                Scans our talent network to create the optimal team for your project
+                            </p>
+                        </div>
+                        <div class="card-content-icon">
+                            <img src="images/icon-team-builder.svg" alt="calculator-icon" />
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-bar gold"></div>
+                        <div class="card-content">
+                            <h2 class="card-content-heading">Karma</h2>
+                            <p class="card-content-body">
+                                Regularly evaluates our talent to ensure quality
+                            </p>
+                        </div>
+                        <div class="card-content-icon">
+                            <img src="images/icon-karma.svg" alt="calculator-icon" />
+                        </div>
+                    </div>
+                </div>
+                <div class="content-cards_right">
+                    <div class="card">
+                        <div class="card-bar blue"></div>
+                        <div class="card-content">
+                            <h2 class="card-content-heading">Calculator</h2>
+                            <p class="card-content-body">
+                                Uses data from past projects to provide better delivery estimates
+                            </p>
+                        </div>
+                        <div class="card-content-icon">
+                            <img src="images/icon-calculator.svg" alt="calculator-icon" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <div class="information-container">
-    <div class="box-one-container">
-      <div class="cyan-top-box-background-color">
-      </div>
-      <h3>Supervisor</h3>
-      <p class="box-description">Monitors activity to identify project roadblocks</p>
-      <img src="images/icon-supervisor.svg" alt="calculator-icon">
-    </div>
+        <!-- Content to solve -->
+        <!--
+        <div class="top-container">
+            <h1 class="top-header">Reliable, efficient delivery</h1>
+            <h1 class="middle-top-header">Powered by Technology</h1>
+            <p class="top-description">
+                
+            </p>
+        </div>
 
-    <div class="box-two-container">
-      <div class="red-top-box-background-color">
-      </div>
-      <h3>Team Builder</h3>
-      <p class="box-description">Scans our talent network to create the optimal team for your project</p>
-      <img src="images/icon-team-builder.svg" alt="calculator-icon">
-    </div>
+        <div class="information-container">
+            <div class="box-one-container">
+                <div class="cyan-top-box-background-color"></div>
+                <h3>Supervisor</h3>
+                <p class="box-description">Monitors activity to identify project roadblocks</p>
+                <img src="images/icon-supervisor.svg" alt="calculator-icon" />
+            </div>
 
-    <div class="box-three-container">
-      <div class="orange-top-box-background-color">
-      </div>
-      <h3>Karma</h3>
-      <p class="box-description">Regularly evaluates our talent to ensure quality</p>
-      <img src="images/icon-karma.svg" alt="calculator-icon">
-    </div>
+            <div class="box-two-container">
+                <div class="red-top-box-background-color"></div>
+                <h3>Team Builder</h3>
+                <p class="box-description">
+                    Scans our talent network to create the optimal team for your project
+                </p>
+                <img src="images/icon-team-builder.svg" alt="calculator-icon" />
+            </div>
 
-    <div class="box-four-container">
-      <div class="blue-top-box-background-color">
-      </div>
-      <h3>Calculator</h3>
-      <p class="box-description">Uses data from past projects to provide better delivery estimates</p>
-      <img src="images/icon-calculator.svg" alt="calculator-icon">
-    </div>
-  </div>
-</body>
+            <div class="box-three-container">
+                <div class="orange-top-box-background-color"></div>
+                <h3>Karma</h3>
+                <p class="box-description">Regularly evaluates our talent to ensure quality</p>
+                <img src="images/icon-karma.svg" alt="calculator-icon" />
+            </div>
+
+            <div class="box-four-container">
+                <div class="blue-top-box-background-color"></div>
+                <h3>Calculator</h3>
+                <p class="box-description">
+                    Uses data from past projects to provide better delivery estimates
+                </p>
+                <img src="images/icon-calculator.svg" alt="calculator-icon" />
+            </div>
+        </div>
+        -->
+
+        <!-- edited by Milanb0z  -->
+    </body>
 </html>
